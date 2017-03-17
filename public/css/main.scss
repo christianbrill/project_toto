@@ -1,0 +1,160 @@
+$beeyellow: #f1c40f;
+$marineblue: #2c3e50;
+
+*{
+	box-sizing: border-box;
+	font-family: "Fira Sans", sans-serif;
+}
+
+body{
+	background: #2c3e50;
+	margin: 0;
+
+	p{
+		color: black;
+		margin-left: 20px;
+	}
+
+	#container{
+		width: 500px;
+	}
+
+/*==================================
+			NAV BAR
+==================================*/
+	ul{
+		background: black;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		margin-bottom: 20px;
+		width: 100%;
+
+		li{
+			font-size: 1.5em;
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 15px;
+
+			a{
+				color: #f1c40f;
+				padding: 15px;
+
+				&:hover{
+					color: white;
+					text-decoration: none;
+				}
+			} // a end
+		} // li end
+	} // ul end
+
+/*==================================
+			TABLE SECTION
+==================================*/
+	table{
+		background: black;
+		border-collapse: collapse;
+		color: #f1c40f;
+		margin: 50px auto;
+		width: 60%;
+
+		&, tr, th, td{
+			border: 3px solid #2c3e50;
+			font-weight: bold;
+			text-align: center;
+			padding: 5px;
+		}
+
+		th{
+			color: white;
+			text-transform: uppercase;
+		}
+
+		button{
+			padding: 10px;
+
+			a:hover{
+				text-decoration: none;
+			}
+		}
+	} // table end
+
+
+/*==================================
+		ONE STUDENT INFO P
+==================================*/
+	#one_student_div{
+
+		p{
+			background: black;
+			color: white;
+			margin-bottom: 10px;
+			padding: 10px;
+			width: 350px;
+		}
+
+		span{
+			color: $beeyellow;
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+	}
+
+
+/*==================================
+			FORM
+==================================*/
+	form{
+		background: black;
+		border-radius: 10px;
+		margin: 50px auto 100px;
+		padding: 20px;
+		text-align: center;
+		width: 400px;
+
+		p{
+			color: white;
+		}
+
+		h1{
+			color: white;
+			margin: 0;
+		}
+
+		label{
+			color: $beeyellow;
+			margin: 10px 0;
+		}
+
+		input, select{
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			width: 80%;
+		}
+
+		[type="submit"]{
+			margin-top: 20px;
+			width: 50%;
+		}
+	}
+
+/*==================================
+			FOOTER
+==================================*/
+	footer{
+		background: black;
+		bottom: 0;
+		color: #f1c40f;
+		height: 70px;
+		padding: 15px;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+
+		p{
+			color: #f1c40f;
+			margin-bottom: 15px;
+		}
+	} // footer end
+} // body end

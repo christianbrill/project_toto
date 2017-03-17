@@ -1,0 +1,9 @@
+# Composer
+/vendor/
+composer.lock
+
+# Config file
+/inc/config.php
+
+# Upload directory
+/public/img/files

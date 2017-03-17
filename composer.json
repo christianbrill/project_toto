@@ -1,0 +1,14 @@
+{
+    "name": "neby55/project-toto",
+    "description": "Management of the webforce3 functions",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Christian Brill",
+            "email": "quedarme@gmail.com"
+        }
+    ],
+    "require": {
+        "social-links/social-links": "^1.12"
+    }
+}
